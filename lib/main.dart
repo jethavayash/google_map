@@ -3,25 +3,10 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:google_maps/view/padding.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
 import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
-
-import 'animate_camera.dart';
-import 'lite_mode.dart';
-import 'map_click.dart';
-import 'map_coordinates.dart';
-import 'map_ui.dart';
-import 'marker_icons.dart';
-import 'move_camera.dart';
-import 'padding.dart';
-import 'page.dart';
-import 'place_circle.dart';
-import 'place_marker.dart';
-import 'place_polygon.dart';
-import 'place_polyline.dart';
-import 'scrolling_map.dart';
-import 'snapshot.dart';
-import 'tile_overlay.dart';
+import 'package:google_maps/view/export.dart';
 
 final List<GoogleMapExampleAppPage> _allPages = <GoogleMapExampleAppPage>[
   const MapUiPage(),

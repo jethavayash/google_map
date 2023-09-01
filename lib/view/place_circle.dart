@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-import 'page.dart';
+import 'package:google_maps/view/page.dart';
 
 class PlaceCirclePage extends GoogleMapExampleAppPage {
   const PlaceCirclePage({Key? key})
