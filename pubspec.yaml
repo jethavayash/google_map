@@ -47,7 +47,11 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   google_maps_flutter: ^2.2.6
-
+  location: ^5.0.3
+  geolocator: ^10.0.0
+  geocoding: ^2.0.4
+  permission_handler: ^6.0.1
+  syncfusion_flutter_maps: ^20.4.53
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

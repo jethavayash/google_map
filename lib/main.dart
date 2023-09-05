@@ -3,12 +3,18 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:google_maps/view/complete_implementation.dart';
 import 'package:google_maps/view/padding.dart';
+import 'package:google_maps/view/track.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
 import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
 import 'package:google_maps/view/export.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:location/location.dart';
 
 final List<GoogleMapExampleAppPage> _allPages = <GoogleMapExampleAppPage>[
+  const GoogleMapAll(),
+  const TrackPage(),
   const MapUiPage(),
   const MapCoordinatesPage(),
   const MapClickPage(),
