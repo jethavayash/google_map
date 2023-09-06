@@ -14,22 +14,22 @@ import 'package:location/location.dart';
 
 final List<GoogleMapExampleAppPage> _allPages = <GoogleMapExampleAppPage>[
   const GoogleMapAll(),
-  const TrackPage(),
+  // const TrackPage(),
   const MapUiPage(),
   const MapCoordinatesPage(),
   const MapClickPage(),
-  const AnimateCameraPage(),
-  const MoveCameraPage(),
+  // const AnimateCameraPage(),
+  // const MoveCameraPage(),
   const PlaceMarkerPage(),
   const MarkerIconsPage(),
-  const ScrollingMapPage(),//
+  // const ScrollingMapPage(),//
   const PlacePolylinePage(),//
   const PlacePolygonPage(),
   const PlaceCirclePage(),//
-  const PaddingPage(),
+  // const PaddingPage(),
   const SnapshotPage(),
-  const LiteModePage(),
-  const TileOverlayPage(),
+  // const LiteModePage(),
+  // const TileOverlayPage(),
 ];
 
 void main() {
